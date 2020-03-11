@@ -35,5 +35,5 @@ if __name__ == '__main__':
   flow_im = flow_to_image(pred_flow)
 
   # Visualization
-  plt.imshow(flow_im)
+  # plt.imshow(flow_im)
   plt.savefig('flow.png', bbox_inches='tight')
