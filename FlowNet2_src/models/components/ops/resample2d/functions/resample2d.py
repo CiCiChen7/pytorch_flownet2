@@ -33,5 +33,5 @@ class Resample2dFunction(Function):
                                             grad_input1.data, grad_input2.data,
                                             ctx.kernel_size, ctx.bilinear)
 
-        return grad_input1, grad_input2, None, None
-        # return grad_input1, grad_input2, None
+        # return grad_input1, grad_input2, None, None
+        return grad_input1, grad_input2, None
